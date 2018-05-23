@@ -1,16 +1,35 @@
 html, body {
-	font-family: 'PT Serif', serif;
+	font-family: Lora, serif;
 	letter-spacing: 2px;
 	color: #ece7d3;
 	background-color: #2C364B;
+}
+
+.container {
+	float:left;
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table {
+	border: none;
+	border-collapse: collapse;
 }
 
 a {
 	text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 400;
+}
+
 h1 {
-	font-size: 40px;
+	font-size: 52px;
 }
 
 h2 {
